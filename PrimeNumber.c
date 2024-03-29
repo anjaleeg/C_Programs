@@ -9,7 +9,7 @@ int main()
     printf("Enter user input");
     scanf("%d", &a);
 
-    for(int i = 2; i <=9; i++) {
+    for(int i = 2; i <=(a/2); i++) {
         if(a%i == 0 && (a!=2)) {
             printf("Non prime number\n");
         }
